@@ -6,5 +6,8 @@
     "dev": "nodemon ./src/server.js",
     "start": "node ./src/server.js",
     "p": "prettier './src/**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.8.2"
   }
 }
