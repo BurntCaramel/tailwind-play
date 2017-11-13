@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "hapi": "^16.6.2"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
+    "p": "prettier './src/**/*.js'"
   }
 }
