@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "hapi": "^16.6.2",
-    "postcss": "^6.0.14"
+    "postcss": "^6.0.14",
+    "tailwindcss": "^0.1.6"
   },
   "scripts": {
     "dev": "nodemon ./src/server.js",
@@ -9,7 +10,6 @@
     "p": "prettier --single-quote --no-semi --write './src/**/*.{js,json}'"
   },
   "devDependencies": {
-    "prettier": "^1.8.2",
-    "tailwindcss": "^0.1.6"
+    "prettier": "^1.8.2"
   }
 }
