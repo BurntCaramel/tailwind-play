@@ -2,11 +2,11 @@ const Hapi = require('hapi')
 
 const server = new Hapi.Server()
 
-server.connection({ port: 7000 })
+server.connection({ port: process.env.PORT || 7000 })
 
 server.route([
   {
-    method: 'get',
+    method: 'GET',
     path: '/',
     handler(request, reply) {
       reply({ success: true })
