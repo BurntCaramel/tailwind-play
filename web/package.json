@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Describe web here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-preact-app",
+    "clean": "nwb clean-app",
+    "dev": "nwb serve-preact-app",
+    "test": "nwb test-preact",
+    "test:coverage": "nwb test-preact --coverage",
+    "test:watch": "nwb test-preact --server",
+    "p": "prettier --single-quote --no-semi --write './src/**/*.{js,json}'"
+  },
+  "dependencies": {
+    "preact": "^8.2.6",
+    "preact-compat": "^3.17.0",
+    "preact-organism": "^0.1.0"
+  },
+  "devDependencies": {
+    "nwb": "0.19.x",
+    "prettier": "^1.8.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
